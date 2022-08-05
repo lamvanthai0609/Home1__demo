@@ -1,0 +1,81 @@
+
+.activee{
+	animation: moveBottomtoTop .5s linear;
+}
+
+.top{
+	animation: moveToptoBottom .5s linear;
+}
+
+
+.left{
+	animation: moveLefttoRight .5s linear;
+}
+
+
+.right{
+	animation: moveRighttoLeft .5s linear;
+}
+
+
+.bottom{
+	animation: moveBottomtoTop .5s linear;
+}
+
+
+
+
+
+
+
+@keyframes moveToptoBottom{
+	from{
+		transform: translateY(-50px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+@keyframes moveLefttoRight{
+	from{
+		transform: translateX(-100px);
+		opacity: 0;
+	}
+	to{
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+@keyframes moveRighttoLeft{
+	from{
+		transform: translateX(100px);
+		opacity: 0;
+	}
+	to{
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+@keyframes moveBottomtoTop{
+	from{
+		transform: translateY(-100px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+@keyframes activee{
+	from{
+		opacity: 0;
+	}
+	to{
+		
+		opacity: 1;
+	}
+}
+

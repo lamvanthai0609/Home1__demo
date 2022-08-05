@@ -1,0 +1,14 @@
+
+
+
+.btn{
+	background-color: var(--color-pink);
+	color: var(--color-white);
+	letter-spacing: o.1em;
+	font-weight: 600;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 14px 41px;
+	border-radius: 50px;
+
+}

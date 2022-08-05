@@ -1,0 +1,37 @@
+.Profession{
+	position: absolute;
+	top: 2000px;
+	left: 50%;
+	width: 100%;
+	transform: translateX(-50%);
+	
+}
+
+.Profession__wrapper{
+	position: relative;
+	left: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 1140px;
+	transform: translateX(-50%);
+}
+
+.Profession__item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 20px 0px;
+	
+
+}
+.Profession__item__row{
+	min-height: 400px;
+	padding: 10px;
+	
+}
+.Profession__item__row .Card{
+	width: 450px;
+}

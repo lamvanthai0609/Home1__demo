@@ -1,0 +1,50 @@
+
+
+.Form__group{
+	display: flex;
+	width: 100%;
+	margin: 40px auto;
+}
+
+
+.Form-controll{
+	font-size: 16px;
+	line-height: 24px;
+	border: 1px solid var(--color-border-text);
+	border-radius: 15px;
+	padding: 15px 20px;
+	background: var(--color-white);
+	color: var(--color-text-input);
+	letter-spacing: .1em;
+
+}
+.Form-controll::placeholder{
+	opacity: .6;
+}
+
+textarea{
+	color: var(--color-text-input);
+	resize: none;
+	text-align: left;
+}
+textarea:focus-visible{
+	outline: none;
+}
+
+
+@media (max-width: 740px){
+	.Form__group{
+		
+	}
+}
+
+@media (min-width: 740px) and (max-width: 1112px){
+	.Form__group{
+		justify-content: center;
+	}
+}
+/*@media (min-width: 1024px) and (max-width: 1239px){
+	.Form__group{
+		justify-content: center;
+	}
+}*/

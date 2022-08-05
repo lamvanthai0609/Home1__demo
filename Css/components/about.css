@@ -1,0 +1,160 @@
+
+
+
+.About{
+	position: absolute;
+	top: 1250px;
+	left: 50%;
+	width: 100%;
+	transform: translateX(-50%);	
+}
+
+.About__wrapper{
+	display: flex;
+	max-width: 1540px;
+	margin: auto;
+	padding-top: 200px;
+	height: 100%;
+	background-image: url("../../access/icon_home1/Background Bubble.png");
+	background-repeat: no-repeat;	
+	min-height: 800px;
+	background-size: cover;
+	z-index: -2;
+}
+.About__container{
+	display: flex;
+	width: 100%;
+	background-image: linear-gradient(var(--color-transparent),var(--color-white));
+}
+.About__content{
+	display: flex;
+	margin-top: 50px;
+	min-height: 300px;
+	max-width: 1140px;
+	margin: auto;
+	padding: 0px 40px;
+	
+}
+.About__content-row {
+	margin-top: 40px;
+}
+.About__content-info{
+	width: 100%;
+}
+
+.About__content-image{
+	max-width: 476px;
+	max-height: 350px;
+	border-radius: 50px;
+	
+
+}
+
+.About__content-contatc{
+	font-size: 13px;
+	font-weight: 600;
+	color: var(--color-text-hover);
+}
+.About__content-title{
+	margin: 10px 0px 15px 0px;
+	color: var(--color-text-title);
+}
+.About__content-describe{
+	color: var(--color-text-default);
+	font-size: 13px;
+	letter-spacing: 0.1em;
+}
+
+.About__content-btnGroup{
+	display: flex;
+	margin-top: 40px;
+	width: 100%;
+	
+
+
+}
+.About__content-btnLeft{
+	height: 100%;
+	padding: 15px ;
+	width: 200px;
+}
+.About__content-btnRight{
+	background-color: var(--color-transparent);
+	color: var(--color-text-default);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 30px;
+	padding: 10px ;
+	width: 200px;
+	
+	
+}
+.About__content-btnimg{
+	margin-right: 10px;
+}
+.About__content-btntext{
+
+}
+
+@media (max-width: 740px){
+	.About__content-info{
+		/*display: flex;
+		justify-content: center;*/
+		text-align: center;
+		
+	}
+	.About__content-describe{
+		width: 100%;
+		padding: 0 10px;
+		text-align: center;
+	}
+	.About__content-btnGroup{
+		justify-content: center;
+	}
+	.About__row{
+		width: 100%;
+	}
+	.About__col{
+		
+		margin: 10px 0px;
+	}
+	
+	.About__right{
+		display: flex;
+		justify-content: center;
+	}
+	.About__content-btnLeft{
+		padding: 20px;
+		
+	}
+	.About__content-btnRight{
+		padding: 20px 0px;
+		width: 300px;
+		margin: 0px;
+	}
+
+}
+@media (min-width: 740px) and (max-width: 1112px){
+	.About__content-info{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+	}
+	.About__content-describe{
+		width: 100%;
+		padding: 0 10px;
+		text-align: center;
+	}
+	.About__row{
+		width: 100%;
+	}
+	.About__right{
+		display: flex;
+		justify-content: center;
+	}
+	.About__content-image{
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,70 @@
+
+:root{
+	/*--color-pink : #FF64AE;*/
+	--color-pink : #FF64AE;
+	--color-white: #fff;
+	--color-text-default: #8B8B8B;
+	--color-text-title:#091156;
+	--color-text-hover:#FF64AE;
+	--color-box-shadow: #F7F7FF;
+	--color-transparent: transparent;
+	--color-border-text : #D9DDFE;
+	--color-text-input: #C5C5C5;
+	--color-bgr-footer: #0D165C;
+	--color-box-header: #80808070;
+}
+
+*{
+	box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     font-family: Poppins, sans-serif;
+     -webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 */
+	user-select: none;
+
+}
+body{
+	overflow-x: hidden;
+}
+::-webkit-scrollbar {
+      width: 5px;
+
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+     background: var(--color-pink);
+     border-radius: 10px;
+    
+}
+
+
+a{
+	text-decoration: none;
+	color: var(--color-text-default);
+}
+a:hover{
+	text-decoration: none;
+}
+
+input,
+button {
+     border: none;
+     outline: none;
+    
+}
+ul {
+     padding: 0;
+     list-style: none;
+}
+
+
+a.active{
+	color: var(--color-text-title) !important;
+	font-weight: 700 !important;
+   
+}
+a.active:hover{
+	color: var(--color-text-hover) !important;
+}
+

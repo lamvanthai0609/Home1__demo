@@ -1,0 +1,84 @@
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-0{
+	display: none;
+}
+.col-4{
+	flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.col-6{
+	flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (max-width: 740px){
+	
+    .m-0 {
+        display: none;
+    }
+    .m-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .Core{
+		top: 1200px;
+	}
+	.About{
+		top: 3000px;
+	}
+	.Profession{
+		top: 4100px;
+	}
+	.Contact{
+		top: 5800px;
+	}
+	.Footer{
+		top: 7600px;
+	}
+}
+@media (min-width: 1113px){
+	
+    .l-0 {
+        display: none;
+    }
+    .l-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .l-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    } 
+}
+
+@media (min-width: 741px) and (max-width: 1112px){
+	
+    .Core{
+		top: 1300px;
+	}
+	.About{
+		top: 3100px;
+	}
+	.Profession{
+		top: 4300px;
+	}
+	.Contact{
+		top: 6100px;
+	}
+	.Footer{
+		top: 7900px;
+	}
+}
+
